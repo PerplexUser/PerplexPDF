@@ -1,0 +1,777 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About PerplexPDF</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>Version 1.0.0 · Windows x64
+Local PDF editor and organizer</value>
+  </data>
+  <data name="AboutCopyright" xml:space="preserve">
+    <value>© by www.perplex.click - Michael Lappenbusch</value>
+  </data>
+  <data name="ActualSize" xml:space="preserve">
+    <value>Actual Size</value>
+  </data>
+  <data name="AddImage" xml:space="preserve">
+    <value>Add Image</value>
+  </data>
+  <data name="AddText" xml:space="preserve">
+    <value>Add Text</value>
+  </data>
+  <data name="Annotate" xml:space="preserve">
+    <value>_Annotate</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="BookmarkRemoved" xml:space="preserve">
+    <value>This bookmark points to a page that was removed from the project.</value>
+  </data>
+  <data name="Bookmarks" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="BothLanguages" xml:space="preserve">
+    <value>English + German</value>
+  </data>
+  <data name="BrowserError" xml:space="preserve">
+    <value>Windows could not open the website in your default browser.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="Canceling" xml:space="preserve">
+    <value>Canceling…</value>
+  </data>
+  <data name="ClipboardFailed" xml:space="preserve">
+    <value>The clipboard was busy. Try copying again.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseSearch" xml:space="preserve">
+    <value>Close search</value>
+  </data>
+  <data name="CloseTab" xml:space="preserve">
+    <value>Close Tab</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color (#RRGGBB or #AARRGGBB)</value>
+  </data>
+  <data name="ChooseColor" xml:space="preserve">
+    <value>Choose…</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="ConfirmDeletePage" xml:space="preserve">
+    <value>Delete page {0} and its overlays from this project? You can undo this action.</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Continuous" xml:space="preserve">
+    <value>Continuous</value>
+  </data>
+  <data name="CoordinatesHint" xml:space="preserve">
+    <value>Position and size in PDF points, measured from the page’s lower-left corner before edits to rotation.</value>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Selected text copied.</value>
+  </data>
+  <data name="CopyHint" xml:space="preserve">
+    <value>Press Ctrl+C to copy the selected text.</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Copy Selected Text</value>
+  </data>
+  <data name="CreateCopy" xml:space="preserve">
+    <value>Create Copy</value>
+  </data>
+  <data name="CreateImages" xml:space="preserve">
+    <value>Create PDF from Images…</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteOverlay" xml:space="preserve">
+    <value>Delete Selected Overlay</value>
+  </data>
+  <data name="DeletePage" xml:space="preserve">
+    <value>Delete Page…</value>
+  </data>
+  <data name="DependencyMissing" xml:space="preserve">
+    <value>A required PerplexPDF component could not be loaded. Extract the complete portable package and try again.</value>
+  </data>
+  <data name="Diagnostic" xml:space="preserve">
+    <value>Code {0} · Reference {1}</value>
+  </data>
+  <data name="DocumentInfo" xml:space="preserve">
+    <value>Document Information</value>
+  </data>
+  <data name="DocumentViewer" xml:space="preserve">
+    <value>PDF page view</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Open documents</value>
+  </data>
+  <data name="Dpi" xml:space="preserve">
+    <value>Resolution (dpi)</value>
+  </data>
+  <data name="DraftFailed" xml:space="preserve">
+    <value>The recovery draft could not be saved. Save the project to keep your edits.</value>
+  </data>
+  <data name="DrawHint" xml:space="preserve">
+    <value>Draw a box on the page, or click to use a default size. Esc cancels.</value>
+  </data>
+  <data name="DropHint" xml:space="preserve">
+    <value>Drop a PDF or a PerplexPDF project here · Ctrl+O to open</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>_Edit</value>
+  </data>
+  <data name="Edited" xml:space="preserve">
+    <value>Edited</value>
+  </data>
+  <data name="EditPdfText" xml:space="preserve">
+    <value>Edit PDF Text…</value>
+  </data>
+  <data name="EditTextButton" xml:space="preserve">
+    <value>Edit text</value>
+  </data>
+  <data name="DuplicatePage" xml:space="preserve">
+    <value>Duplicate Page</value>
+  </data>
+  <data name="PageDuplicated" xml:space="preserve">
+    <value>Page duplicated.</value>
+  </data>
+  <data name="FilterBookmarks" xml:space="preserve">
+    <value>Filter bookmarks</value>
+  </data>
+  <data name="TextEditClick" xml:space="preserve">
+    <value>Click the text to replace on the PDF page.</value>
+  </data>
+  <data name="TextEditReading" xml:space="preserve">
+    <value>Reading the selected PDF text…</value>
+  </data>
+  <data name="TextEditMiss" xml:space="preserve">
+    <value>Click a visible PDF text line. A scanned page contains a picture of the text.</value>
+  </data>
+  <data name="TextEditPrompt" xml:space="preserve">
+    <value>Edit the selected text object. PerplexPDF will open the result in a new tab so you can review and save it.</value>
+  </data>
+  <data name="TextEditContinuePrompt" xml:space="preserve">
+    <value>Edit the selected text object in the working copy.</value>
+  </data>
+  <data name="TextEditSaving" xml:space="preserve">
+    <value>Rewriting PDF text…</value>
+  </data>
+  <data name="TextEditReady" xml:space="preserve">
+    <value>Text updated. Click another text object, press Esc to finish, or choose Save PDF As…</value>
+  </data>
+  <data name="TextEditUnsupported" xml:space="preserve">
+    <value>PerplexPDF could not verify the replacement with this PDF text object and font. Try shorter text or different characters.</value>
+  </data>
+  <data name="TextEditProtected" xml:space="preserve">
+    <value>Direct text editing requires an unsigned PDF that opens without a password.</value>
+  </data>
+  <data name="Ellipse" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="EmptyDescription" xml:space="preserve">
+    <value>Read, organize, annotate, and export PDFs on this device.</value>
+  </data>
+  <data name="EmptyTitle" xml:space="preserve">
+    <value>Open a document</value>
+  </data>
+  <data name="EncryptedProject" xml:space="preserve">
+    <value>The project keeps the protected source PDF, but stores overlays and images without encryption. Save this project?</value>
+  </data>
+  <data name="EncryptionWarning" xml:space="preserve">
+    <value>The new PDF will open without a password. Continue?</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ExportPng" xml:space="preserve">
+    <value>Export Current Page as PNG…</value>
+  </data>
+  <data name="ExportWord" xml:space="preserve">
+    <value>Export as Word (.docx)…</value>
+  </data>
+  <data name="ExportEpub" xml:space="preserve">
+    <value>Export as EPUB…</value>
+  </data>
+  <data name="ExportWordButton" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="ExportEpubButton" xml:space="preserve">
+    <value>Export to Epub</value>
+  </data>
+  <data name="WordFilter" xml:space="preserve">
+    <value>Word document (*.docx)|*.docx</value>
+  </data>
+  <data name="EpubFilter" xml:space="preserve">
+    <value>EPUB book (*.epub)|*.epub</value>
+  </data>
+  <data name="EditableText" xml:space="preserve">
+    <value>Editable text</value>
+  </data>
+  <data name="PageImages" xml:space="preserve">
+    <value>Page images</value>
+  </data>
+  <data name="WordOriginalLayout" xml:space="preserve">
+    <value>Original layout (page images)</value>
+  </data>
+  <data name="ConversionMode" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="ConversionHint" xml:space="preserve">
+    <value>Editable text includes pictures and starts chapters at level 1 headings. Use Page images for the original page layout. For editable scans, create a searchable copy with Tools &gt; OCR first.</value>
+  </data>
+  <data name="WordConversionHint" xml:space="preserve">
+    <value>Editable text rebuilds Word paragraphs, tables, pictures and colors. Use OCR for pages that lack a text layer. Original layout is the separate full-page image mode.</value>
+  </data>
+  <data name="WordImages" xml:space="preserve">
+    <value>Include pictures and graphics</value>
+  </data>
+  <data name="WordTables" xml:space="preserve">
+    <value>Detect simple editable tables</value>
+  </data>
+  <data name="WordPageBreaks" xml:space="preserve">
+    <value>Start each PDF page on a new Word page</value>
+  </data>
+  <data name="WordReflow" xml:space="preserve">
+    <value>Reflow wrapped lines into paragraphs</value>
+  </data>
+  <data name="WordLists" xml:space="preserve">
+    <value>Rebuild bullet lists and keep numbered markers</value>
+  </data>
+  <data name="WordFooters" xml:space="preserve">
+    <value>Move detected page numbers to the Word footer</value>
+  </data>
+  <data name="ConversionProgress" xml:space="preserve">
+    <value>Converting page {0} of {1}…</value>
+  </data>
+  <data name="ConversionEncryptionWarning" xml:space="preserve">
+    <value>The exported document will open without a password. Continue?</value>
+  </data>
+  <data name="ConversionSignatureWarning" xml:space="preserve">
+    <value>The digital signatures apply to the source PDF. Create a converted copy?</value>
+  </data>
+  <data name="WordSaved" xml:space="preserve">
+    <value>Word document saved.</value>
+  </data>
+  <data name="WordPagesWithoutText" xml:space="preserve">
+    <value>Word document saved. {0} page(s) had no editable text. Use Tools &gt; OCR for scanned pages.</value>
+  </data>
+  <data name="EpubSaved" xml:space="preserve">
+    <value>EPUB book saved.</value>
+  </data>
+  <data name="Exporting" xml:space="preserve">
+    <value>Exporting…</value>
+  </data>
+  <data name="Extract" xml:space="preserve">
+    <value>Extract Pages…</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>_File</value>
+  </data>
+  <data name="FileError" xml:space="preserve">
+    <value>PerplexPDF could not read or write the selected file. Check its location and whether it is open in another application.</value>
+  </data>
+  <data name="FileMissing" xml:space="preserve">
+    <value>The file or folder is no longer available.</value>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="FitPage" xml:space="preserve">
+    <value>Fit Page</value>
+  </data>
+  <data name="FitWidth" xml:space="preserve">
+    <value>Fit Width</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font size (pt)</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>_Help</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Open PDF (Ctrl+O) or project (Ctrl+Shift+O). Select a thumbnail to navigate. Drag thumbnails or use Move Earlier and Move Later to reorder.
+
+Find (Ctrl+F), drag across page text with the Select tool, then copy (Ctrl+C). Zoom with Ctrl++ / Ctrl+- and print with Ctrl+P.
+
+Choose an overlay tool, then drag on the page. Select and drag an overlay to move it, or edit its properties and click Apply. Escape leaves the tool or cancels the current operation. Undo with Ctrl+Z and redo with Ctrl+Y.
+
+Save Project (Ctrl+S) keeps the source and editable overlays in a .ppdf file. Save PDF As (Ctrl+Shift+S) creates a standard PDF with overlays applied. Source text remains in the PDF. Use overlays for additions and review. Secure redaction, editing existing PDF objects, and cryptographic signing are outside this release. The app displays PDF links and scripts as passive document content. Rewriting a signed PDF can invalidate signatures.
+
+Use Export to Word or Export to Epub from the toolbar. Word defaults to editable text, tables and separate graphics. For editable scans, run Tools &gt; OCR first.</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImageFilter" xml:space="preserve">
+    <value>Images (*.png;*.jpg;*.jpeg)|*.png;*.jpg;*.jpeg</value>
+  </data>
+  <data name="ImageOrder" xml:space="preserve">
+    <value>{0}  ·  {1}°  ·  {2}</value>
+  </data>
+  <data name="ImageOrderHint" xml:space="preserve">
+    <value>Set image order, rotation, and A4 page orientation.</value>
+  </data>
+  <data name="ImagesDocument" xml:space="preserve">
+    <value>PDF from images</value>
+  </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>That password did not open the PDF.</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>Title: {0}
+Author: {1}
+Keywords: {2}
+Pages: {3}
+Signatures: {4}</value>
+  </data>
+  <data name="Inspector" xml:space="preserve">
+    <value>INSPECTOR</value>
+  </data>
+  <data name="InvalidExport" xml:space="preserve">
+    <value>The generated PDF failed validation. The destination was kept.</value>
+  </data>
+  <data name="InvalidImage" xml:space="preserve">
+    <value>Use a valid PNG or JPG image within the file size and resolution limits.</value>
+  </data>
+  <data name="InvalidOcrSettings" xml:space="preserve">
+    <value>Choose a supported OCR language and resolution.</value>
+  </data>
+  <data name="InvalidOverlay" xml:space="preserve">
+    <value>Check the position, dimensions, font size (4–144 pt), and hexadecimal color.</value>
+  </data>
+  <data name="InvalidPdf" xml:space="preserve">
+    <value>This file could not be opened as a PDF. It may be damaged or unsupported.</value>
+  </data>
+  <data name="InvalidProject" xml:space="preserve">
+    <value>This project is damaged or has an invalid manifest, resource, or page reference.</value>
+  </data>
+  <data name="InvalidRange" xml:space="preserve">
+    <value>Enter valid page numbers or ascending ranges, with each page listed once.</value>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>Landscape</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Recognition language</value>
+  </data>
+  <data name="LocalStatus" xml:space="preserve">
+    <value>Local workspace</value>
+  </data>
+  <data name="MatchCount" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="Merge" xml:space="preserve">
+    <value>Merge PDFs…</value>
+  </data>
+  <data name="MergeCount" xml:space="preserve">
+    <value>Select between 2 and 64 PDF files to merge.</value>
+  </data>
+  <data name="MergeHint" xml:space="preserve">
+    <value>Set the order in which the source PDFs should appear.</value>
+  </data>
+  <data name="MergedDocument" xml:space="preserve">
+    <value>Merged document</value>
+  </data>
+  <data name="Merging" xml:space="preserve">
+    <value>Merging documents…</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Move Later</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Move Earlier</value>
+  </data>
+  <data name="Navigator" xml:space="preserve">
+    <value>NAVIGATOR</value>
+  </data>
+  <data name="NewDocumentHint" xml:space="preserve">
+    <value>New document ready. Save it as a PDF or a project.</value>
+  </data>
+  <data name="NextMatch" xml:space="preserve">
+    <value>Next match</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="NoChanges" xml:space="preserve">
+    <value>No changes</value>
+  </data>
+  <data name="NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="NoSelectedText" xml:space="preserve">
+    <value>No selectable text in that area.</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="MitLicense" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
+  <data name="Notices" xml:space="preserve">
+    <value>Third-Party Notices</value>
+  </data>
+  <data name="OcrDialog" xml:space="preserve">
+    <value>OCR…</value>
+  </data>
+  <data name="OcrFailed" xml:space="preserve">
+    <value>Tesseract could not create a searchable copy.</value>
+  </data>
+  <data name="OcrHint" xml:space="preserve">
+    <value>Selected pages are rendered as images with a searchable text layer. Other pages keep their existing content. OCR works best on printed text.</value>
+  </data>
+  <data name="OcrProgress" xml:space="preserve">
+    <value>Recognizing pages · {0} / {1}</value>
+  </data>
+  <data name="OcrRuntimeUnavailable" xml:space="preserve">
+    <value>OCR requires the packaged Windows Tesseract tool and language files.</value>
+  </data>
+  <data name="OcrSaved" xml:space="preserve">
+    <value>Searchable PDF copy saved.</value>
+  </data>
+  <data name="OcrStarting" xml:space="preserve">
+    <value>Preparing offline OCR…</value>
+  </data>
+  <data name="OcrTitle" xml:space="preserve">
+    <value>Create searchable PDF</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OpenPdf" xml:space="preserve">
+    <value>Open PDF</value>
+  </data>
+  <data name="OpenPdfDialog" xml:space="preserve">
+    <value>Open PDF…</value>
+  </data>
+  <data name="OpenProject" xml:space="preserve">
+    <value>Open Project</value>
+  </data>
+  <data name="OpenProjectDialog" xml:space="preserve">
+    <value>Open Project…</value>
+  </data>
+  <data name="Opening" xml:space="preserve">
+    <value>Opening documents…</value>
+  </data>
+  <data name="OriginalProtected" xml:space="preserve">
+    <value>Choose a different filename to preserve the original PDF.</value>
+  </data>
+  <data name="OutputExtension" xml:space="preserve">
+    <value>Use the file extension shown in the save dialog.</value>
+  </data>
+  <data name="OverlayAdded" xml:space="preserve">
+    <value>Overlay added. Drag it to move it, or use Properties.</value>
+  </data>
+  <data name="OverlayTextPrompt" xml:space="preserve">
+    <value>Enter and format the text. Resize its box in Properties if the text needs more room.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="InvalidNewText" xml:space="preserve">
+    <value>Enter text, a font size from 4 to 144 pt, and a hexadecimal color (#RRGGBB or #AARRGGBB).</value>
+  </data>
+  <data name="Sign" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="AddSignatureImage" xml:space="preserve">
+    <value>Add Signature Image…</value>
+  </data>
+  <data name="SignatureImageHint" xml:space="preserve">
+    <value>Drag a box for the signature, then choose its PNG or JPG image.</value>
+  </data>
+  <data name="PageCount" xml:space="preserve">
+    <value>Page {0} / {1}</value>
+  </data>
+  <data name="PageInput" xml:space="preserve">
+    <value>Go to page</value>
+  </data>
+  <data name="PageNumber" xml:space="preserve">
+    <value>Page {0}</value>
+  </data>
+  <data name="PageRange" xml:space="preserve">
+    <value>Pages, for example 1-3, 5</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>_Pages</value>
+  </data>
+  <data name="PasswordPrompt" xml:space="preserve">
+    <value>Enter the password for {0}.</value>
+  </data>
+  <data name="PasswordTitle" xml:space="preserve">
+    <value>Open protected PDF</value>
+  </data>
+  <data name="PdfFilter" xml:space="preserve">
+    <value>PDF documents (*.pdf)|*.pdf</value>
+  </data>
+  <data name="PdfPassword" xml:space="preserve">
+    <value>This PDF requires a valid password.</value>
+  </data>
+  <data name="PdfSaved" xml:space="preserve">
+    <value>PDF saved. Use a PerplexPDF project to keep editing its overlays.</value>
+  </data>
+  <data name="PdfToolFailed" xml:space="preserve">
+    <value>The PDF tool could not process the document.</value>
+  </data>
+  <data name="PermissionError" xml:space="preserve">
+    <value>Windows denied access to the selected location.</value>
+  </data>
+  <data name="PngFilter" xml:space="preserve">
+    <value>PNG images (*.png)|*.png</value>
+  </data>
+  <data name="PngSaved" xml:space="preserve">
+    <value>Page saved as PNG at 144 dpi.</value>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>Portrait</value>
+  </data>
+  <data name="PreparingPrint" xml:space="preserve">
+    <value>Preparing pages for printing…</value>
+  </data>
+  <data name="PreviousMatch" xml:space="preserve">
+    <value>Previous match</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print…</value>
+  </data>
+  <data name="PrintFailed" xml:space="preserve">
+    <value>Windows could not send this document to the print queue.</value>
+  </data>
+  <data name="PrintQueued" xml:space="preserve">
+    <value>Document sent to the print queue.</value>
+  </data>
+  <data name="ProjectFilter" xml:space="preserve">
+    <value>PerplexPDF projects (*.ppdf)|*.ppdf</value>
+  </data>
+  <data name="ProjectSaved" xml:space="preserve">
+    <value>Project saved.</value>
+  </data>
+  <data name="ProjectVersion" xml:space="preserve">
+    <value>This PerplexPDF project uses an unsupported format version.</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="QuickGuide" xml:space="preserve">
+    <value>Quick Guide</value>
+  </data>
+  <data name="RangeHint" xml:space="preserve">
+    <value>Enter page numbers and ranges in the order you want, for example 3, 1-2.</value>
+  </data>
+  <data name="ReadingImages" xml:space="preserve">
+    <value>Preparing images…</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="RecoverDrafts" xml:space="preserve">
+    <value>{0} recovery draft(s) were found. Open them now?</value>
+  </data>
+  <data name="RecoveredDocument" xml:space="preserve">
+    <value>Recovered document</value>
+  </data>
+  <data name="RecoveryOpened" xml:space="preserve">
+    <value>Recovered draft opened. Save it as a project.</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RenderFailed" xml:space="preserve">
+    <value>This page could not be rendered.</value>
+  </data>
+  <data name="RenderLimit" xml:space="preserve">
+    <value>The requested page size and resolution exceed the rendering limit. Choose a lower resolution if available.</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>Rotate Left</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>Rotate Right</value>
+  </data>
+  <data name="SavePdf" xml:space="preserve">
+    <value>Save PDF</value>
+  </data>
+  <data name="SavePdfAs" xml:space="preserve">
+    <value>Save PDF As…</value>
+  </data>
+  <data name="SaveProject" xml:space="preserve">
+    <value>Save Project</value>
+  </data>
+  <data name="SaveProjectAs" xml:space="preserve">
+    <value>Save Project As…</value>
+  </data>
+  <data name="SavingProject" xml:space="preserve">
+    <value>Saving project…</value>
+  </data>
+  <data name="SearchCap" xml:space="preserve">
+    <value>Showing the first 2,000 matches.</value>
+  </data>
+  <data name="SearchComplete" xml:space="preserve">
+    <value>Search complete.</value>
+  </data>
+  <data name="SearchLimit" xml:space="preserve">
+    <value>Enter a search term of up to 256 characters.</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Searching document…</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectHint" xml:space="preserve">
+    <value>Drag to select text. Click an overlay to edit it.</value>
+  </data>
+  <data name="SelectOverlayHint" xml:space="preserve">
+    <value>Select an overlay on the page to edit its text, style, or position.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings…</value>
+  </data>
+  <data name="ShowBookmarks" xml:space="preserve">
+    <value>Show Bookmarks</value>
+  </data>
+  <data name="ShowThumbnails" xml:space="preserve">
+    <value>Show Thumbnails</value>
+  </data>
+  <data name="SignatureAbsent" xml:space="preserve">
+    <value>None detected</value>
+  </data>
+  <data name="SignaturePresent" xml:space="preserve">
+    <value>Present (status unverified)</value>
+  </data>
+  <data name="SignatureWarning" xml:space="preserve">
+    <value>This PDF contains digital signatures. Creating a new PDF can invalidate them. Continue?</value>
+  </data>
+  <data name="SinglePage" xml:space="preserve">
+    <value>Single Page</value>
+  </data>
+  <data name="SizeLimit" xml:space="preserve">
+    <value>The file, page count, or project resources exceed the supported size limit.</value>
+  </data>
+  <data name="SourceChanged" xml:space="preserve">
+    <value>The source copy no longer matches the project. The project was not saved.</value>
+  </data>
+  <data name="Split" xml:space="preserve">
+    <value>Split PDF…</value>
+  </data>
+  <data name="SplitExists" xml:space="preserve">
+    <value>A file or folder with that split name already exists.</value>
+  </data>
+  <data name="SplitFolder" xml:space="preserve">
+    <value>Choose a parent folder for the split PDFs</value>
+  </data>
+  <data name="SplitHint" xml:space="preserve">
+    <value>Enter each part on one line separated by a semicolon, for example 1-3; 4, 6. Each part becomes a separate PDF.</value>
+  </data>
+  <data name="SplitSaved" xml:space="preserve">
+    <value>{0} PDFs saved to the new split folder.</value>
+  </data>
+  <data name="TabLimit" xml:space="preserve">
+    <value>Close a tab before opening more documents. Up to 16 tabs can be open at a time.</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Thumbnails" xml:space="preserve">
+    <value>Thumbnails</value>
+  </data>
+  <data name="ToggleOrientation" xml:space="preserve">
+    <value>Toggle Page Orientation</value>
+  </data>
+  <data name="ToolTimeout" xml:space="preserve">
+    <value>The PDF tool exceeded its time limit.</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>_Tools</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>PerplexPDF could not complete this operation.</value>
+  </data>
+  <data name="UnsafePath" xml:space="preserve">
+    <value>The selected path is unsupported by the PDF tool.</value>
+  </data>
+  <data name="UnsavedPrompt" xml:space="preserve">
+    <value>Save project changes to {0} before closing?
+
+Yes saves the project. No discards the changes. Cancel keeps the tab open.</value>
+  </data>
+  <data name="UnsupportedFile" xml:space="preserve">
+    <value>Open a PDF (.pdf) or a PerplexPDF project (.ppdf).</value>
+  </data>
+  <data name="UnsupportedPageSize" xml:space="preserve">
+    <value>This PDF contains a page size outside the supported range.</value>
+  </data>
+  <data name="UnsupportedPdfSecurity" xml:space="preserve">
+    <value>This PDF uses an unsupported protection scheme.</value>
+  </data>
+  <data name="UseContinuousByDefault" xml:space="preserve">
+    <value>Open new tabs in continuous view by default? This applies for this session.</value>
+  </data>
+  <data name="UseSingleByDefault" xml:space="preserve">
+    <value>Open new tabs in single-page view by default? This applies for this session.</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>_View</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+</root>
