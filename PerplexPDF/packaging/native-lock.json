@@ -1,0 +1,27 @@
+{
+  "pdfium": {
+    "repository": "bblanchon/pdfium-binaries",
+    "tag": "chromium/8138",
+    "version": "159.0.8138.0",
+    "asset": "pdfium-win-x64.tgz",
+    "releaseCommitPrefix": "0eb94b2"
+  },
+  "qpdf": {
+    "repository": "qpdf/qpdf",
+    "tag": "v12.4.2",
+    "asset": "qpdf-12.4.2-msvc64.zip",
+    "sha256": "db87077e683630c1217e0e8f9a20a9749d952ab676e881c3689187763a5de25d"
+  },
+  "vcpkg": {
+    "repository": "https://github.com/microsoft/vcpkg.git",
+    "tag": "2026.10.16",
+    "triplet": "x64-windows-static",
+    "tesseractVersion": "5.5.3",
+    "libpngVersion": "1.6.59"
+  },
+  "tessdata": {
+    "repository": "tesseract-ocr/tessdata_fast",
+    "tag": "4.1.0",
+    "commitPrefix": "6572757"
+  }
+}

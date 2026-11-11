@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <UseAppHost>false</UseAppHost>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.NET.HostModel">
+      <HintPath>$(MSBuildToolsPath)/Microsoft.NET.HostModel.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
