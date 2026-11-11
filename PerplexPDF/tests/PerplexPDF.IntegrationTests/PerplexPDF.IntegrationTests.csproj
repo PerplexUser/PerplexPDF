@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><IsTestProject>true</IsTestProject><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/PerplexPDF.Infrastructure.Pdf/PerplexPDF.Infrastructure.Pdf.csproj" />
+    <ProjectReference Include="../../src/PerplexPDF.Infrastructure.Ocr/PerplexPDF.Infrastructure.Ocr.csproj" />
+    <ProjectReference Include="../../src/PerplexPDF.Infrastructure.Store/PerplexPDF.Infrastructure.Store.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" PrivateAssets="all" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Condition="$([MSBuild]::IsOSPlatform('Linux'))" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="../../assets/fonts/*.ttf" Link="assets/fonts/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../Fixtures/*" Link="fixtures/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup><Compile Include="../Shared/Checks.cs;../Shared/CoreScenarios.cs;../Shared/NativeScenarios.cs" LinkBase="Scenarios" /></ItemGroup>
+</Project>
