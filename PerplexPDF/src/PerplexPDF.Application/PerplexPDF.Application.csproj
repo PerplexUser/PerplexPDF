@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../PerplexPDF.Domain/PerplexPDF.Domain.csproj" />
+  </ItemGroup>
+</Project>
