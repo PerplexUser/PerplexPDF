@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>PerplexPDF</AssemblyName>
+    <RootNamespace>PerplexPDF.Desktop</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(PerplexPDFLinuxPackage)' == 'true'">
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+    <AppHostDotNetSearch>AppRelative;EnvironmentVariable;Global</AppHostDotNetSearch>
+    <AppHostRelativeDotNet>runtime</AppHostRelativeDotNet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PerplexPDF.Infrastructure.Store/PerplexPDF.Infrastructure.Store.csproj" />
+    <ProjectReference Include="../PerplexPDF.Infrastructure.Ocr/PerplexPDF.Infrastructure.Ocr.csproj" />
+    <Compile Include="../PerplexPDF.Infrastructure.Pdf/Pdfium*.cs" LinkBase="Pdf" />
+    <Compile Include="../PerplexPDF.Infrastructure.Pdf/QpdfStructure.cs" Link="Pdf/QpdfStructure.cs" />
+    <EmbeddedResource Include="../PerplexPDF.App/Resources/Strings.en-US.resx" Link="Strings.resx"
+                      WithCulture="false" ManifestResourceName="PerplexPDF.Desktop.Strings" />
+    <Content Include="../PerplexPDF.App/Resources/PerplexPDF.svg" Link="PerplexPDF.svg"
+             CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../LICENSE;../../THIRD_PARTY_NOTICES.txt" Link="%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

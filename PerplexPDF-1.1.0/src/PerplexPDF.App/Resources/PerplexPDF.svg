@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="tile" x2="1" y2="1">
+      <stop stop-color="#2966dc"/>
+      <stop offset="1" stop-color="#123984"/>
+    </linearGradient>
+  </defs>
+  <rect x="9" y="9" width="238" height="238" rx="53" fill="url(#tile)"/>
+  <rect x="12" y="12" width="232" height="232" rx="50" fill="none" stroke="#afcfff" stroke-opacity=".28" stroke-width="3"/>
+  <path fill="#092655" fill-opacity=".35" d="M70 43h76l39 39v109a16 16 0 0 1-16 16H70a16 16 0 0 1-16-16V59a16 16 0 0 1 16-16Z"/>
+  <path fill="#f8fbff" d="M66 36h76l39 39v109a16 16 0 0 1-16 16H66a16 16 0 0 1-16-16V52a16 16 0 0 1 16-16Z"/>
+  <path fill="#a5c6ff" d="M142 36v25a14 14 0 0 0 14 14h25Z"/>
+  <path fill="none" stroke="#4c77b3" stroke-width="9" stroke-linecap="round" d="M76 94h57m-57 22h48m-48 22h26"/>
+  <path fill="none" stroke="#a5c6ff" stroke-width="7" stroke-linecap="round" d="M75 174h33"/>
+  <path fill="#52e0c2" stroke="#123984" stroke-width="7" stroke-linejoin="round"
+        d="m118 169 7-25 60-60a10 10 0 0 1 14 0l8 8a10 10 0 0 1 0 14l-60 60-29 8Z"/>
+  <path fill="none" stroke="#123984" stroke-width="6" d="m177 92 22 22m-74 30 22 22"/>
+</svg>
